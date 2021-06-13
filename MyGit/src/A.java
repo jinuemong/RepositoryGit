@@ -5,9 +5,11 @@ public class A {
 		System.out.println("This is A");
 		System.out.println("This is A 2nd version");
 		
-		new B().printB();
+		B b = new B();
+		b.printB();
 		System.out.println("This is B print");
 		System.out.println("This is B print2");
+
 	}
 
 }
