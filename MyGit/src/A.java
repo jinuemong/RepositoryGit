@@ -7,6 +7,7 @@ public class A {
 		
 		new B().printB();
 		System.out.println("This is B print");
+		System.out.println("This is B2 print");
 	}
 
 }
