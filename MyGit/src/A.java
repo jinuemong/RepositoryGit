@@ -9,6 +9,10 @@ public class A {
 		b.printB();
 		System.out.println("This is B print");
 		System.out.println("This is B print2");
+		
+		new C().printC();
+		System.out.println("This is C print");
+		System.out.println("This is C print2");
 
 	}
 
